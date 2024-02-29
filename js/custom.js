@@ -8,7 +8,7 @@ const audioIcon = document.querySelector(".audio-icon-wrapper i");
 const song = document.querySelector("#song");
 let isPlaying = false;
 document.getElementById("musiknya").onclick = function () {
-  song.volume = 0.2;
+  song.volume = 0.5;
   audioIconWrapper.style.display = "flex";
   song.play();
   isPlaying = true;
